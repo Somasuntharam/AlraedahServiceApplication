@@ -1,0 +1,28 @@
+=2022-08-05 11:57:40,901 [INFO] com.alraedah.finance.sme.onboarding.AlraedahServiceApplication [main] Starting AlraedahServiceApplication using Java 17.0.3 on DESKTOP-J1U2SK2 with PID 6560 (D:\workspace\alraedah-service\alraedah-service\target\classes started by hp in D:\workspace\alraedah-service\alraedah-service)
+=2022-08-05 11:57:40,908 [INFO] com.alraedah.finance.sme.onboarding.AlraedahServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
+=2022-08-05 11:57:45,858 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+=2022-08-05 11:57:45,892 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+=2022-08-05 11:57:45,894 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/9.0.65]
+=2022-08-05 11:57:46,688 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/alraedah] [main] Initializing Spring embedded WebApplicationContext
+=2022-08-05 11:57:46,689 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5671 ms
+=2022-08-05 11:57:47,951 [INFO] springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+=2022-08-05 11:57:48,489 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path '/alraedah'
+=2022-08-05 11:57:48,492 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+=2022-08-05 11:57:48,654 [INFO] springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+=2022-08-05 11:57:48,732 [INFO] springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+=2022-08-05 11:57:49,279 [INFO] com.alraedah.finance.sme.onboarding.AlraedahServiceApplication [main] Started AlraedahServiceApplication in 9.052 seconds (JVM running for 11.027)
+=2022-08-05 11:58:36,513 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/alraedah] [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+=2022-08-05 11:58:36,514 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+=2022-08-05 11:58:36,518 [INFO] org.springframework.web.servlet.DispatcherServlet [http-nio-8080-exec-1] Completed initialization in 4 ms
+=2022-08-05 11:58:36,772 [INFO] com.alraedah.finance.sme.onboarding.controller.ListController [http-nio-8080-exec-1] inside checkCycle()
+=2022-08-05 11:58:36,773 [INFO] com.alraedah.finance.sme.onboarding.controller.ListController [http-nio-8080-exec-1] inside checkCycle() request inputMap{list1=[1, 2, 3]}
+=2022-08-05 11:58:36,774 [INFO] com.alraedah.finance.sme.onboarding.service.ListService [http-nio-8080-exec-1] inside validateCycle()
+=2022-08-05 11:58:36,790 [INFO] com.alraedah.finance.sme.onboarding.common.AppUtils [http-nio-8080-exec-1] inside checkCycleExists()
+=2022-08-05 11:58:36,791 [INFO] com.alraedah.finance.sme.onboarding.common.AppUtils [http-nio-8080-exec-1] inside checkCycleExists() list:[1, 2, 3]
+=2022-08-05 11:58:36,799 [ERROR] com.alraedah.finance.sme.onboarding.common.AppUtils [http-nio-8080-exec-1] exception:Index 3 out of bounds for length 3
+=2022-08-05 11:58:36,799 [INFO] com.alraedah.finance.sme.onboarding.service.ListService [http-nio-8080-exec-1] exit validateCycle()
+=2022-08-05 11:58:36,799 [INFO] com.alraedah.finance.sme.onboarding.controller.ListController [http-nio-8080-exec-1] checkCycle() responseMap:{list1=false}
+=2022-08-05 11:58:36,800 [INFO] com.alraedah.finance.sme.onboarding.controller.ListController [http-nio-8080-exec-1] exit checkCycle()
+=2022-08-05 11:59:32,421 [INFO] org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(10)-127.0.0.1] Application shutdown requested.
+=2022-08-05 12:01:57,314 [INFO] com.alraedah.finance.sme.onboarding.AlraedahServiceApplication [main] Starting AlraedahServiceApplication using Java 17.0.3 on DESKTOP-J1U2SK2 with PID 5540 (D:\workspace\alraedah-service\alraedah-service\target\classes started by hp in D:\workspace\alraedah-service\alraedah-service)
+=2022-08-05 12:01:57,997 [INFO] com.alraedah.finance.sme.onboarding.AlraedahServiceApplication [main] No active profile set, falling back to 1 default profile: "default"
